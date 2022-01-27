@@ -62,12 +62,12 @@ def paste():
     TextArea.event_generate(("<>"))
 
 def about():
-    showinfo("Notepad", "Notepad by Code With Harry")
+    showinfo("Notepad", "Notepad by Abhay Bisht")
 
 if __name__ == '__main__':
     #Basic tkinter setup
     root = Tk()
-    root.title("Untitled - Notepad")
+    root.title("Abhay - Notepad")
     root.wm_iconbitmap("glass.ico")
     root.geometry("644x788")
 
